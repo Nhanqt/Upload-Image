@@ -1,0 +1,17 @@
+export enum CustomerMessageEnum {
+  USERNAME_EXIST = 'Tên đăng nhập đã tồn tại',
+  EMAIL_EXIST = 'Email đã tồn tại',
+  PHONE_EXIST = 'Số điện thoại đã tồn tại',
+  TEAM_NOT_EXIST = 'Nhóm không tồn tại',
+  ROLE_NOT_EXIST = 'Không có vai trò phù hợp.',
+  CREATE_ERROR = 'Không thể tạo khách hàng.',
+  AUTHORIZED_ADMIN = 'Chỉ admin mới có thể dùng chức năng này.',
+  UPDATE_ERROR = 'Không thể sửa khách hàng.',
+  UPDATE_STATUS_ERROR = 'Không thể sửa trạng thái khách hàng.',
+  DATA_NOT_EXIST = 'Dữ liệu không tồn tại.',
+  CUSTOMER_NOT_EXIST = 'khách hàng không tồn tại.',
+  ACCOUNT_NOT_EXIST = 'Tài khoản không tồn tại.',
+  STATUS_FORMAT = 'Định dạng không đúng.',
+  SET_STATUS_ERROR = 'Không thể sửa trạng thái khách hàng.',
+  GET_ERROR = 'Không thể xem khách hàng.',
+}

@@ -1,0 +1,16 @@
+export enum EmployeeMessageEnum {
+  USERNAME_EXIST = 'Tên đăng nhập đã tồn tại',
+  EMAIL_EXIST = 'Email đã tồn tại',
+  PHONE_EXIST = 'Số điện thoại đã tồn tại',
+  TEAM_NOT_EXIST = 'Nhóm không tồn tại',
+  ROLE_NOT_EXIST = 'Không có vai trò phù hợp.',
+  AUTHORIZED_ADMIN = 'Chỉ admin mới có thể dùng chức năng này.',
+  UPDATE_ERROR = 'Không thể sửa nhân viên.',
+  CREATE_ERROR = 'Không thể tạo nhân viên.',
+  DATA_NOT_EXIST = 'Dữ liệu không tồn tại.',
+  EMPLOYEE_NOT_EXIST = 'Nhân viên không tồn tại.',
+  ACCOUNT_NOT_EXIST = 'Tài khoản không tồn tại.',
+  STATUS_FORMAT = 'Định dạng không đúng.',
+  SET_STATUS_ERROR = 'Không thể sửa trạng thái khách hàng.',
+  PAGED_ERROR = 'Không thể tìm nhân viên.',
+}
